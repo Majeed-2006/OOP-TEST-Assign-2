@@ -1,55 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<JUCERPROJECT id="Wajh27" name="NewProject" projectType="guiapp" useAppConfig="0"
+<JUCERPROJECT id="k0jUGD" name="NewProject" projectType="guiapp" useAppConfig="0"
               addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1">
-  <MAINGROUP id="jTiX98" name="NewProject">
-    <GROUP id="{58364E95-FDB1-E177-F55B-ECE61C68D6F4}" name="Source">
-      <FILE id="LZrJYc" name="WaveformDisplay.h" compile="0" resource="0"
-            file="Source/WaveformDisplay.h"/>
-      <FILE id="E2kyyn" name="WaveformDisplay.cpp" compile="1" resource="0"
+  <MAINGROUP id="Q0QIwt" name="NewProject">
+    <GROUP id="{D542950F-C5D6-A440-AA81-2AEAE25068D6}" name="Source">
+      <FILE id="OedCFs" name="PlaylistComponent.h" compile="0" resource="0"
+            file="Source/PlaylistComponent.h"/>
+      <FILE id="JC0X8G" name="GUIPlayer.h" compile="0" resource="0" file="Source/GUIPlayer.h"/>
+      <FILE id="U5Ja8S" name="GoBackButton.h" compile="0" resource="0" file="Source/GoBackButton.h"/>
+      <FILE id="hyw7yx" name="GoForwardButton.h" compile="0" resource="0"
+            file="Source/GoForwardButton.h"/>
+      <FILE id="MzkhzL" name="GoForward.svg" compile="0" resource="1" file="../../../Downloads/GoForward.svg"/>
+      <FILE id="K4CmWJ" name="GoBack.svg" compile="0" resource="1" file="../../../Downloads/GoBack.svg"/>
+      <FILE id="KaNvq2" name="End.svg" compile="0" resource="1" file="../../../Downloads/End.svg"/>
+      <FILE id="sxIXeQ" name="circleplay.svg" compile="0" resource="1" file="../../../Downloads/circleplay.svg"/>
+      <FILE id="Arcu86" name="NoVolume.svg" compile="0" resource="1" file="../../../Downloads/NoVolume.svg"/>
+      <FILE id="Imnapg" name="pause.svg" compile="0" resource="1" file="../../../Downloads/pause.svg"/>
+      <FILE id="X7hrL7" name="volumehigh.svg" compile="0" resource="1" file="../../../Downloads/volumehigh.svg"/>
+      <FILE id="YHN8jg" name="start.svg" compile="0" resource="1" file="../../../Downloads/start.svg"/>
+      <FILE id="bdgTNJ" name="WaveformDisplay.cpp" compile="1" resource="0"
             file="Source/WaveformDisplay.cpp"/>
-      <FILE id="gZ68kq" name="MetadataDisplay.h" compile="0" resource="0"
-            file="Source/MetadataDisplay.h"/>
-      <FILE id="ckUkjy" name="MetadataDisplay.cpp" compile="1" resource="0"
-            file="Source/MetadataDisplay.cpp"/>
-      <FILE id="VBmBep" name="EndButton.h" compile="0" resource="0" file="Source/EndButton.h"/>
-      <FILE id="GYByCY" name="EndButton.cpp" compile="1" resource="0" file="Source/EndButton.cpp"/>
-      <FILE id="sHsR54" name="StartBotton.h" compile="0" resource="0" file="Source/StartBotton.h"/>
-      <FILE id="tlAPnb" name="StartBotton.cpp" compile="1" resource="0" file="Source/StartBotton.cpp"/>
-      <FILE id="xgOJXC" name="MuteButton.h" compile="0" resource="0" file="Source/MuteButton.h"/>
-      <FILE id="bHzeNK" name="MuteButton.cpp" compile="1" resource="0" file="Source/MuteButton.cpp"/>
-      <FILE id="ml0HG9" name="StopButton.h" compile="0" resource="0" file="Source/StopButton.h"/>
-      <FILE id="PBkkp5" name="StopButton.cpp" compile="1" resource="0" file="Source/StopButton.cpp"/>
-      <FILE id="d8iI13" name="PlayButton.h" compile="0" resource="0" file="Source/PlayButton.h"/>
-      <FILE id="q3SvQl" name="PlayButton.cpp" compile="1" resource="0" file="Source/PlayButton.cpp"/>
-      <FILE id="CGUJj6" name="LoopTrackButton.h" compile="0" resource="0"
+      <FILE id="M7xvgg" name="WaveformDisplay.h" compile="0" resource="0"
+            file="Source/WaveformDisplay.h"/>
+      <FILE id="utKg5C" name="volumeSlider.h" compile="0" resource="0" file="Source/volumeSlider.h"/>
+      <FILE id="bFDNdY" name="StopButton.h" compile="0" resource="0" file="Source/StopButton.h"/>
+      <FILE id="pdWCUi" name="StartButton.h" compile="0" resource="0" file="Source/StartButton.h"/>
+      <FILE id="c7koW4" name="SpeedSlider.h" compile="0" resource="0" file="Source/SpeedSlider.h"/>
+      <FILE id="QGHVPZ" name="SeekSlider.h" compile="0" resource="0" file="Source/SeekSlider.h"/>
+      <FILE id="dA9KDc" name="PlayStopButton.h" compile="0" resource="0"
+            file="Source/PlayStopButton.h"/>
+      <FILE id="QcPjRv" name="PlaylistRowComponent.cpp" compile="1" resource="0"
+            file="Source/PlaylistRowComponent.cpp"/>
+      <FILE id="joPWqf" name="PlaylistRowComponent.h" compile="0" resource="0"
+            file="Source/PlaylistRowComponent.h"/>
+      <FILE id="FK5XI2" name="PlaylistComponent..cpp" compile="1" resource="0"
+            file="Source/PlaylistComponent..cpp"/>
+      <FILE id="sglaON" name="PlayButton.h" compile="0" resource="0" file="Source/PlayButton.h"/>
+      <FILE id="jJcVgI" name="MuteButton.h" compile="0" resource="0" file="Source/MuteButton.h"/>
+      <FILE id="ml9eIi" name="LoopTrackButton.h" compile="0" resource="0"
             file="Source/LoopTrackButton.h"/>
-      <FILE id="bgH4uB" name="LoopTrackButton.cpp" compile="1" resource="0"
-            file="Source/LoopTrackButton.cpp"/>
-      <FILE id="zJi6gi" name="LoadButton.h" compile="0" resource="0" file="Source/LoadButton.h"/>
-      <FILE id="d7IZsK" name="LoadButton.cpp" compile="1" resource="0" file="Source/LoadButton.cpp"/>
-      <FILE id="oFcjCT" name="GUIPlayer.h" compile="0" resource="0" file="Source/GUIPlayer.h"/>
-      <FILE id="bnRQts" name="GUIPlayer.cpp" compile="1" resource="0" file="Source/GUIPlayer.cpp"/>
-      <FILE id="KcHuHu" name="AudioPlayer.cpp" compile="1" resource="0" file="Source/AudioPlayer.cpp"/>
-      <FILE id="KxPExV" name="AudioPlayer.h" compile="0" resource="0" file="Source/AudioPlayer.h"/>
-      <FILE id="Mjq3OA" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
-      <FILE id="jMYehm" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
-      <FILE id="HUApBZ" name="MainComponent.cpp" compile="1" resource="0"
+      <FILE id="gpHgwh" name="LoadButton.h" compile="0" resource="0" file="Source/LoadButton.h"/>
+      <FILE id="OkMio8" name="ABLoopInputWindow.h" compile="0" resource="0"
+            file="Source/ABLoopInputWindow.h"/>
+      <FILE id="GXyGtj" name="EndButton.h" compile="0" resource="0" file="Source/EndButton.h"/>
+      <FILE id="WIuXUd" name="ABLoopButton.h" compile="0" resource="0" file="Source/ABLoopButton.h"/>
+      <FILE id="mRGAOL" name="AudioPlayer.cpp" compile="1" resource="0" file="Source/AudioPlayer.cpp"/>
+      <FILE id="iHCpRn" name="AudioPlayer.h" compile="0" resource="0" file="Source/AudioPlayer.h"/>
+      <FILE id="UcjkY2" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="sFr2yJ" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="Maf7cj" name="MainComponent.cpp" compile="1" resource="0"
             file="Source/MainComponent.cpp"/>
     </GROUP>
   </MAINGROUP>
   <MODULES>
-    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
-    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
-    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
-    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
-    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
-    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
-    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
-    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
-    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
-    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
-    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
   </MODULES>
   <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
   <EXPORTFORMATS>
@@ -59,17 +73,17 @@
         <CONFIGURATION isDebug="0" name="Release" targetName="NewProject"/>
       </CONFIGURATIONS>
       <MODULEPATHS>
-        <MODULEPATH id="juce_audio_basics" path="../../Downloads/juce-8.0.10-windows/JUCE/modules"/>
-        <MODULEPATH id="juce_core" path="../../Downloads/juce-8.0.10-windows/JUCE/modules"/>
-        <MODULEPATH id="juce_events" path="../../Downloads/juce-8.0.10-windows/JUCE/modules"/>
-        <MODULEPATH id="juce_graphics" path="../../Downloads/juce-8.0.10-windows/JUCE/modules"/>
-        <MODULEPATH id="juce_data_structures" path="../../Downloads/juce-8.0.10-windows/JUCE/modules"/>
-        <MODULEPATH id="juce_gui_basics" path="../../Downloads/juce-8.0.10-windows/JUCE/modules"/>
-        <MODULEPATH id="juce_audio_devices" path="../../Downloads/juce-8.0.10-windows/JUCE/modules"/>
-        <MODULEPATH id="juce_audio_formats" path="../../Downloads/juce-8.0.10-windows/JUCE/modules"/>
-        <MODULEPATH id="juce_audio_processors" path="../../Downloads/juce-8.0.10-windows/JUCE/modules"/>
-        <MODULEPATH id="juce_gui_extra" path="../../Downloads/juce-8.0.10-windows/JUCE/modules"/>
-        <MODULEPATH id="juce_audio_utils" path="../../Downloads/juce-8.0.10-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../Downloads/juce-8.0.10-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../Downloads/juce-8.0.10-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../Downloads/juce-8.0.10-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../Downloads/juce-8.0.10-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../Downloads/juce-8.0.10-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../../Downloads/juce-8.0.10-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../Downloads/juce-8.0.10-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../Downloads/juce-8.0.10-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../Downloads/juce-8.0.10-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../Downloads/juce-8.0.10-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../Downloads/juce-8.0.10-windows/JUCE/modules"/>
       </MODULEPATHS>
     </VS2022>
   </EXPORTFORMATS>
