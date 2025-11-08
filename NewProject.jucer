@@ -4,20 +4,20 @@
               addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1">
   <MAINGROUP id="Q0QIwt" name="NewProject">
     <GROUP id="{D542950F-C5D6-A440-AA81-2AEAE25068D6}" name="Source">
+      <FILE id="nCuQOq" name="volumehigh.svg" compile="0" resource="1" file="../Source/volumehigh.svg"/>
+      <FILE id="TZ6JLa" name="start.svg" compile="0" resource="1" file="../Source/start.svg"/>
+      <FILE id="nD1LOZ" name="pause.svg" compile="0" resource="1" file="../Source/pause.svg"/>
+      <FILE id="PWVXvX" name="NoVolume.svg" compile="0" resource="1" file="../Source/NoVolume.svg"/>
+      <FILE id="yrFwD1" name="GoForward.svg" compile="0" resource="1" file="../Source/GoForward.svg"/>
+      <FILE id="gtkSHu" name="GoBack.svg" compile="0" resource="1" file="../Source/GoBack.svg"/>
+      <FILE id="eHwamy" name="End.svg" compile="0" resource="1" file="../Source/End.svg"/>
+      <FILE id="Sc5TB0" name="circleplay.svg" compile="0" resource="1" file="../Source/circleplay.svg"/>
       <FILE id="OedCFs" name="PlaylistComponent.h" compile="0" resource="0"
             file="Source/PlaylistComponent.h"/>
       <FILE id="JC0X8G" name="GUIPlayer.h" compile="0" resource="0" file="Source/GUIPlayer.h"/>
       <FILE id="U5Ja8S" name="GoBackButton.h" compile="0" resource="0" file="Source/GoBackButton.h"/>
       <FILE id="hyw7yx" name="GoForwardButton.h" compile="0" resource="0"
             file="Source/GoForwardButton.h"/>
-      <FILE id="MzkhzL" name="GoForward.svg" compile="0" resource="1" file="../../../Downloads/GoForward.svg"/>
-      <FILE id="K4CmWJ" name="GoBack.svg" compile="0" resource="1" file="../../../Downloads/GoBack.svg"/>
-      <FILE id="KaNvq2" name="End.svg" compile="0" resource="1" file="../../../Downloads/End.svg"/>
-      <FILE id="sxIXeQ" name="circleplay.svg" compile="0" resource="1" file="../../../Downloads/circleplay.svg"/>
-      <FILE id="Arcu86" name="NoVolume.svg" compile="0" resource="1" file="../../../Downloads/NoVolume.svg"/>
-      <FILE id="Imnapg" name="pause.svg" compile="0" resource="1" file="../../../Downloads/pause.svg"/>
-      <FILE id="X7hrL7" name="volumehigh.svg" compile="0" resource="1" file="../../../Downloads/volumehigh.svg"/>
-      <FILE id="YHN8jg" name="start.svg" compile="0" resource="1" file="../../../Downloads/start.svg"/>
       <FILE id="bdgTNJ" name="WaveformDisplay.cpp" compile="1" resource="0"
             file="Source/WaveformDisplay.cpp"/>
       <FILE id="M7xvgg" name="WaveformDisplay.h" compile="0" resource="0"

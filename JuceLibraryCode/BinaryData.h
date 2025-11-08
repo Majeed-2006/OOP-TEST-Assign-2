@@ -8,6 +8,18 @@
 
 namespace BinaryData
 {
+    extern const char*   volumehigh_svg;
+    const int            volumehigh_svgSize = 1294;
+
+    extern const char*   start_svg;
+    const int            start_svgSize = 533;
+
+    extern const char*   pause_svg;
+    const int            pause_svgSize = 527;
+
+    extern const char*   NoVolume_svg;
+    const int            NoVolume_svgSize = 836;
+
     extern const char*   GoForward_svg;
     const int            GoForward_svgSize = 618;
 
@@ -19,18 +31,6 @@ namespace BinaryData
 
     extern const char*   circleplay_svg;
     const int            circleplay_svgSize = 749;
-
-    extern const char*   NoVolume_svg;
-    const int            NoVolume_svgSize = 836;
-
-    extern const char*   pause_svg;
-    const int            pause_svgSize = 527;
-
-    extern const char*   volumehigh_svg;
-    const int            volumehigh_svgSize = 1294;
-
-    extern const char*   start_svg;
-    const int            start_svgSize = 533;
 
     // Number of elements in the namedResourceList and originalFileNames arrays.
     const int namedResourceListSize = 8;
