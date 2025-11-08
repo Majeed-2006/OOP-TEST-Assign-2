@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="Wajh27" name="NewProject" projectType="guiapp" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1">
+  <MAINGROUP id="jTiX98" name="NewProject">
+    <GROUP id="{58364E95-FDB1-E177-F55B-ECE61C68D6F4}" name="Source">
+      <FILE id="LZrJYc" name="WaveformDisplay.h" compile="0" resource="0"
+            file="Source/WaveformDisplay.h"/>
+      <FILE id="E2kyyn" name="WaveformDisplay.cpp" compile="1" resource="0"
+            file="Source/WaveformDisplay.cpp"/>
+      <FILE id="gZ68kq" name="MetadataDisplay.h" compile="0" resource="0"
+            file="Source/MetadataDisplay.h"/>
+      <FILE id="ckUkjy" name="MetadataDisplay.cpp" compile="1" resource="0"
+            file="Source/MetadataDisplay.cpp"/>
+      <FILE id="VBmBep" name="EndButton.h" compile="0" resource="0" file="Source/EndButton.h"/>
+      <FILE id="GYByCY" name="EndButton.cpp" compile="1" resource="0" file="Source/EndButton.cpp"/>
+      <FILE id="sHsR54" name="StartBotton.h" compile="0" resource="0" file="Source/StartBotton.h"/>
+      <FILE id="tlAPnb" name="StartBotton.cpp" compile="1" resource="0" file="Source/StartBotton.cpp"/>
+      <FILE id="xgOJXC" name="MuteButton.h" compile="0" resource="0" file="Source/MuteButton.h"/>
+      <FILE id="bHzeNK" name="MuteButton.cpp" compile="1" resource="0" file="Source/MuteButton.cpp"/>
+      <FILE id="ml0HG9" name="StopButton.h" compile="0" resource="0" file="Source/StopButton.h"/>
+      <FILE id="PBkkp5" name="StopButton.cpp" compile="1" resource="0" file="Source/StopButton.cpp"/>
+      <FILE id="d8iI13" name="PlayButton.h" compile="0" resource="0" file="Source/PlayButton.h"/>
+      <FILE id="q3SvQl" name="PlayButton.cpp" compile="1" resource="0" file="Source/PlayButton.cpp"/>
+      <FILE id="CGUJj6" name="LoopTrackButton.h" compile="0" resource="0"
+            file="Source/LoopTrackButton.h"/>
+      <FILE id="bgH4uB" name="LoopTrackButton.cpp" compile="1" resource="0"
+            file="Source/LoopTrackButton.cpp"/>
+      <FILE id="zJi6gi" name="LoadButton.h" compile="0" resource="0" file="Source/LoadButton.h"/>
+      <FILE id="d7IZsK" name="LoadButton.cpp" compile="1" resource="0" file="Source/LoadButton.cpp"/>
+      <FILE id="oFcjCT" name="GUIPlayer.h" compile="0" resource="0" file="Source/GUIPlayer.h"/>
+      <FILE id="bnRQts" name="GUIPlayer.cpp" compile="1" resource="0" file="Source/GUIPlayer.cpp"/>
+      <FILE id="KcHuHu" name="AudioPlayer.cpp" compile="1" resource="0" file="Source/AudioPlayer.cpp"/>
+      <FILE id="KxPExV" name="AudioPlayer.h" compile="0" resource="0" file="Source/AudioPlayer.h"/>
+      <FILE id="Mjq3OA" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="jMYehm" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="HUApBZ" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <VS2022 targetFolder="Builds/VisualStudio2022">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="NewProject"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="NewProject"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../Downloads/juce-8.0.10-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../Downloads/juce-8.0.10-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../Downloads/juce-8.0.10-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../Downloads/juce-8.0.10-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../Downloads/juce-8.0.10-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../Downloads/juce-8.0.10-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../Downloads/juce-8.0.10-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../Downloads/juce-8.0.10-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../Downloads/juce-8.0.10-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../Downloads/juce-8.0.10-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../Downloads/juce-8.0.10-windows/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2022>
+  </EXPORTFORMATS>
+</JUCERPROJECT>
